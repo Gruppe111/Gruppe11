@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+    <head>
+        <title> Sammendrag kap 4</title>
+        <meta charset "UTF-8">
+        <style>
+            
+            li {
+                font-size: 20px;
+                font-family: verdana;
+            }
+            
+            .list {
+                
+                margin-right: 400px;
+                border: 5px solid black;
+                padding: 10px;
+            }
+        </style>
+    
+    
+    </head>
+    <body>
+        
+        <center><h1>Sammendrag av kapittel 4</h1></center>
+        
+        <div class="list">
+        <ul>
+            <li>Flere datamaskiner koblet sammen utgjør et enkelt nettverk.</li>
+            
+            <li>Internett er et nettverk av nettverk. All informasjon som sendes over internett, sendes fra en datamaskin til en annen.</li>
+            
+            <li>En klient er en datamaskin som ber om tilgang til informasjon som ligger på en tjener. En tjener er også en datamaskin</li>
+            
+            <li>Informasjon som sender fra en tjener til en klient, deles opp i mindre pakker som sendes hver for seg. For at klienten skal klare å sette sammen disse pakkene på riktig måte, er det viktig at tjeneren følger protokoller, det vil si standarder for sending av informasjon.</li>
+            
+            <li>Internettprotokollen (IP) er ansvarlig for kommunikasjon mellom datamaskiner, og gir alle maskiner en unik IP-adresse.</li>
+            
+            <li>En IP-adresse har ofte også et tilhørende domenenavn. et domenenavn som www.aschoug.no gjør det lettere å finne fram til en nettside.</li>
+            
+            <li>Din lokale datamaskin har IP-adressen 127.0.0.1 og domenenavnet et localhost.</li>
+            
+            <li>Transmission Control Protocol (TCP) er ansvarlig for sending av informasjon mellom maskiner</li>
+            
+            <li>Hypertext Transfer Protocol (HTTP) sørger for at nettlesere (hos klienten) kan kommunisere med tjenere</li>
+        </ul>
+        </div>
+        
+        <table>
+            <tr>
+                <th></th>
+                <th></th>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+        
+        <video width="800" height="auto" controls>
+            <source src="Videoer/Internett.mp4" type="video/mp4">
+            
+        </video>
+        
+        <audio controls>
+            <source src="horse.mp3" type="audio/mpeg">
+            Din nettleser støtter ikke audio-elementet.
+        </audio>
+    
+    
+    </body>
+</html>
