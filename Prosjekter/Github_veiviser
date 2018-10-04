@@ -1,0 +1,82 @@
+<doctype html>
+<html>
+         <head>
+		 <title> github veiviser </title>
+		 <meta charset="uft8">
+		 table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+}
+th {
+    text-align: left;
+</haed>
+<body><style="background-color:powderblue;">
+<table style="width:100%">
+  <tr>
+    <th>Innloging</th>
+    <th>Innstilinger på github</th> 
+    <th>publisering</th>
+  </tr>
+  <tr>
+    <td>Steg 1 finne siden </td>
+    <td>Steg 4 new repesitory</td>
+    <td>Steg 7 Lag en indx fil</td>
+  </tr>
+  <tr>
+    <td>Steg 2 opplysninger</td>
+    <td>Steg 5 ny branch</td>
+    <td>Steg 8 ny tab</td>
+  </tr>
+  <tr>
+    <td>Steg 3 bekrefte konto</td>
+    <td>Steg default branch</td>
+    <td>Steg 9 page sources</td>
+  </tr>
+</table>
+
+<p><a href="#C1">Steg 1</a></p>
+<p><a href="#C2">Steg 2</a></p>
+<p><a href="#C3">Steg 3</a></p>
+<p><a href="#C4">Steg 4</a></p>
+<p><a href="#C5">Steg 5</a></p>
+<p><a href="#C6">Steg 6</a></p>
+<p><a href="#C7">Steg 7</a></p>
+<p><a href="#C8">Steg 8</a></p>
+<p><a href="#C9">Steg 9</a></p>
+<p><a href="#C10">link</a></p>
+
+<h2 id=C1>Steg 1</h2>
+<p>Først søker du etter github eller bruker linken i bunnen av nettsiden</p>
+
+<h2 id=C2>Steg 2</h2>
+<p>Neste steg blir å lage et passord og brukernavn. du må også velg en mail </p>
+
+<h2 id=C3>steg 3</h2>
+<p>Github vil da sende deg en mail med link som du trykke på for å bekrefte kontoen din.</p>
+
+<h2 id="C4">Steg 4</h2>
+<p>Når du er inne på siden trykker du på new repesitory og gir det navn og beskrivelse som du ønsker det.Husk å gjøre filen pulic.</p>
+
+<h2 id=C5>Steg 5</h2>
+<p>Så lager man en ny branch, som du kan kalle gh-pages eller gh-sider vis du vil ha det på norsk.</p>
+
+<h2 id=C6>Steg 6</h2>
+<p>Neste steg er å sette gh pages som default branch</p>
+
+<h2 id=C7>Steg 7</h2>
+<p>Lag en indx fil og lim inn innhold du har allerde eller lag noe inne på index filen</p>
+
+<h2 id=C8>Steg 8</h2>
+<p>Deretter går du inn på settings og finner linken til filen, høyre klikk på den og velg åpne i ny tab</p>
+
+<h2 id=C9>Steg 9</h2>
+<p>Nå kan du sjekke page sources for å se om alt er perfekt</p>
+
+<h2 id=c10>link til nettside 10</h2>
+<p><a href="https://github.com/">link til nettsiden</a></p>
+
+</body>
+</html>
