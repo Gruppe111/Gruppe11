@@ -1,0 +1,176 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    margin: 0;
+    height: 100%;
+    position: relative;
+    top: 150px;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/trepyton_bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+/*Meny*/
+.meny {
+    position: fixed;
+    margin-left: 1140px;
+    z-index: 999;
+    top: 0;
+}
+
+.meny ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #232323;
+}
+
+.meny li {
+  float: left;
+}
+
+.meny li a {
+  display: block;
+  color: #00FF6C;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.meny li a:hover {
+  background-color: #111;
+}
+
+/*Meny slutt*/
+
+.headline {
+    text-align: center;
+    width: 100%
+    position: absolute;
+    color: #eeeeee;
+    font-size: 60px;
+    text-shadow: 3px 4px 0 black;
+}
+
+/*Flex1*/
+.flex1 {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    margin-top: 200px;
+}
+
+.tekst h1 {
+    font-size: 60px;
+    color: #eeeeee;
+    text-align: center;
+}
+
+
+.tekst p {
+    font-size: 50px;
+    color: #eeeeee;
+}
+
+.to {
+    
+}
+
+.to h2{
+    color: #eeeeee;
+    text-align: center;
+}
+
+.tabell {
+    color: #eeeeee;
+}
+/*flex1 slutt*/
+
+
+/*Flex3*/
+.flex3 {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    width: 100%;
+}
+
+.utstyr {
+    font-size: 20px;
+    color: #eeeeee;
+    position: relative;
+}
+
+.imginf {
+    color: #eeeeee;
+    font-size: 25px;
+    text-align: center;
+    background-color: #232323;
+    border: solid;
+    border-color: black;
+}
+
+
+/*Flex2*/
+.flex2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+
+.column {
+    width:33.33%;
+    padding: 0;
+    height: 300px;
+    position: relative;
+}
+
+.column img {
+    width: 100%;
+    height: 100%;
+    transition: .3s;
+    z-index: -1;
+    border-radius: 4px;
+}
+
+.column:hover img {
+    filter: blur(2px) brightness(60%);
+    box-shadow: 0 0 16px cyan;
+}
+
+.column :not(img){
+    z-index: 1;
+    color: #fff;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 50%;
+    opacity: 0;
+    transition: .3s;
+}
+
+.column:hover :not(img) {
+    opacity: 1;
+}
+/*Flex2 slutt*/
+
+footer {
+    background: #232323;
+    padding: 5em 0;
+    text-align: left;
+    color: #fff;
+}
+
